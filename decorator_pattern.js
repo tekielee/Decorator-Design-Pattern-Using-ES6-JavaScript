@@ -20,7 +20,6 @@ class Circle {
 
 class RedShapeDecorator {
 	constructor(decoratedShape) {
-		super(decoratedShape);
 		this.decoratedShape = decoratedShape;
 	}
 	
