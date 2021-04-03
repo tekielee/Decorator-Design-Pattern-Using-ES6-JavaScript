@@ -18,17 +18,7 @@ class Circle {
 	}
 }
 
-class ShapeDecorator {
-	constructor(decoratedShape) {
-		this.decoratedShape = decoratedShape;
-	}
-	
-	draw() {
-		decoratedShape.draw();
-	}
-}
-
-class RedShapeDecorator extends ShapeDecorator {
+class RedShapeDecorator {
 	constructor(decoratedShape) {
 		super(decoratedShape);
 		this.decoratedShape = decoratedShape;
